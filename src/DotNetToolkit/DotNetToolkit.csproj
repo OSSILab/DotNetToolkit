@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFrameworks>net48;netstandard2.0;netstandard2.1;netcoreapp3.1;net5.0;net6.0;net7.0;net8.0</TargetFrameworks>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <Authors>Open Source Software Initiative Contributors</Authors>
+    <Copyright>Open Source Software Initiative Contributors</Copyright>
+    <Description>A general purpose open source utility and helper library for .NET development</Description>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>OSSILab.NetToolkit</PackageId>
+    <PackageLicenseExpression>MIT-0</PackageLicenseExpression>
+    <PackageTags>net toolkit;toolkit;ossilab;dotnet;.net;.net utilities;.net toolkit;xml serialize;xml;serializer;deserialize;readonly set;tree;permutation;combination;bitflag;bit flag;conversion;string conversion;task scheduler;</PackageTags>
+    <PackageProjectUrl>https://github.com/OSSILab/DotNetToolkit</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Resources\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Extensions\BitFlagsExtensions.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>BitFlagsExtensions.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Extensions\BitFlagsExtensions.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BitFlagsExtensions.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

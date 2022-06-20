@@ -1,0 +1,286 @@
+<MyCustomEntity1 Value18="This is an attribute value" Value19="10" Value20="Ctor argument1" Value26="0" Value30="30" Value31="31">
+  <Value0>Value0</Value0>
+  <Value1>1</Value1>
+  <Value2>2</Value2>
+  <MyCustomValue3>3</MyCustomValue3>
+  <MyCustomValue4>
+    <Int32>1</Int32>
+    <Int32>2</Int32>
+    <Int32>3</Int32>
+    <Int32>4</Int32>
+  </MyCustomValue4>
+  <Value5>
+    <String>11 11</String>
+    <String>22 22</String>
+  </Value5>
+  <MyCustomColectionValue6>
+    <Int32>1</Int32>
+    <Double>0.5</Double>
+    <MyCustomEntity1 Value18="This is my attr value" Value19="4" Value20="Ctor argument11" Value26="0" Value30="30" Value31="31">
+      <Value0>Value00</Value0>
+      <Value1>0</Value1>
+      <Value2>2</Value2>
+      <Value21>Ctor argument22</Value21>
+      <Value22 />
+      <Value24>0</Value24>
+      <Value28>28</Value28>
+      <Value29>29</Value29>
+      <Value32>
+        <Value1>11</Value1>
+      </Value32>
+      <Child Value19="0" Value20="Ctor argument111" Value26="0" Value30="30" Value31="31">
+        <Value0>Value000</Value0>
+        <Value1>0</Value1>
+        <Value2>2</Value2>
+        <Value10></Value10>
+        <Value21>Ctor argument222</Value21>
+        <Value22 />
+        <Value24>0</Value24>
+        <Value28>28</Value28>
+        <Value29>29</Value29>
+        <BaseValue>Ctor argument111</BaseValue>
+        <BaseValue1>base Value111</BaseValue1>
+        <BaseValue4>Ctor argument111</BaseValue4>
+      </Child>
+      <BaseValue>Ctor argument11</BaseValue>
+      <BaseValue1>base Value11</BaseValue1>
+      <BaseValue4>Ctor argument11</BaseValue4>
+    </MyCustomEntity1>
+    <Int32>33</Int32>
+    <Collection>
+      <Int32>1</Int32>
+      <Int32>2</Int32>
+      <Int32>3</Int32>
+      <Int32>4</Int32>
+    </Collection>
+    <Collection>
+      <Int32>1</Int32>
+      <String>test</String>
+      <Int32>3</Int32>
+      <Collection>
+        <String>test</String>
+        <Int32>2</Int32>
+        <Int32>3</Int32>
+        <Collection>
+          <Int32>10</Int32>
+          <Int32>13</Int32>
+          <Int32>14</Int32>
+        </Collection>
+        <Int32>4</Int32>
+      </Collection>
+      <Int32>4</Int32>
+    </Collection>
+    <String>test</String>
+    <MySerializableEntity2>
+      <Value1>20</Value1>
+    </MySerializableEntity2>
+  </MyCustomColectionValue6>
+  <Value7>
+    <String>33 44</String>
+    <String>55 66</String>
+  </Value7>
+  <Value8>
+    <Int32>1</Int32>
+    <Double>0.5</Double>
+    <Int32>33</Int32>
+    <MyCustomEntity1 Value18="This is my attr value" Value19="4" Value20="Ctor argument11" Value26="0" Value30="30" Value31="31">
+      <Value0>Value00</Value0>
+      <Value1>0</Value1>
+      <Value2>2</Value2>
+      <Value21>Ctor argument22</Value21>
+      <Value22 />
+      <Value24>0</Value24>
+      <Value28>28</Value28>
+      <Value29>29</Value29>
+      <Value32>
+        <Value1>11</Value1>
+      </Value32>
+      <Child Value19="0" Value20="Ctor argument111" Value26="0" Value30="30" Value31="31">
+        <Value0>Value000</Value0>
+        <Value1>0</Value1>
+        <Value2>2</Value2>
+        <Value10></Value10>
+        <Value21>Ctor argument222</Value21>
+        <Value22 />
+        <Value24>0</Value24>
+        <Value28>28</Value28>
+        <Value29>29</Value29>
+        <BaseValue>Ctor argument111</BaseValue>
+        <BaseValue1>base Value111</BaseValue1>
+        <BaseValue4>Ctor argument111</BaseValue4>
+      </Child>
+      <BaseValue>Ctor argument11</BaseValue>
+      <BaseValue1>base Value11</BaseValue1>
+      <BaseValue4>Ctor argument11</BaseValue4>
+    </MyCustomEntity1>
+    <String>test</String>
+  </Value8>
+  <Value9>
+    <MyCustomEntity1 Value18="This is my attr value" Value19="4" Value20="Ctor argument11" Value26="0" Value30="30" Value31="31">
+      <Value0>Value00</Value0>
+      <Value1>0</Value1>
+      <Value2>2</Value2>
+      <Value21>Ctor argument22</Value21>
+      <Value22 />
+      <Value24>0</Value24>
+      <Value28>28</Value28>
+      <Value29>29</Value29>
+      <Value32>
+        <Value1>11</Value1>
+      </Value32>
+      <Child Value19="0" Value20="Ctor argument111" Value26="0" Value30="30" Value31="31">
+        <Value0>Value000</Value0>
+        <Value1>0</Value1>
+        <Value2>2</Value2>
+        <Value10></Value10>
+        <Value21>Ctor argument222</Value21>
+        <Value22 />
+        <Value24>0</Value24>
+        <Value28>28</Value28>
+        <Value29>29</Value29>
+        <BaseValue>Ctor argument111</BaseValue>
+        <BaseValue1>base Value111</BaseValue1>
+        <BaseValue4>Ctor argument111</BaseValue4>
+      </Child>
+      <BaseValue>Ctor argument11</BaseValue>
+      <BaseValue1>base Value11</BaseValue1>
+      <BaseValue4>Ctor argument11</BaseValue4>
+    </MyCustomEntity1>
+  </Value9>
+  <Value10></Value10>
+  <Value11>
+    <Int32>10</Int32>
+    <String>Test</String>
+  </Value11>
+  <Value12>
+    <Collection>
+      <Collection>
+        <Collection>
+          <Collection>
+            <String>aaa</String>
+            <String>bbb</String>
+            <Int32>3</Int32>
+          </Collection>
+          <Collection>
+            <String>aaa</String>
+            <String>bbb</String>
+            <Int32>3</Int32>
+          </Collection>
+        </Collection>
+      </Collection>
+      <Collection>
+        <Collection>
+          <Collection>
+            <String>aaa</String>
+            <String>bbb</String>
+            <Int32>3</Int32>
+          </Collection>
+          <Collection>
+            <String>aaa</String>
+            <String>bbb</String>
+            <Int32>3</Int32>
+          </Collection>
+        </Collection>
+      </Collection>
+    </Collection>
+    <Collection>
+      <Collection>
+        <Collection>
+          <Collection>
+            <String>aaa</String>
+            <String>bbb</String>
+            <Int32>3</Int32>
+          </Collection>
+          <Collection>
+            <String>aaa</String>
+            <String>bbb</String>
+            <Int32>3</Int32>
+          </Collection>
+        </Collection>
+      </Collection>
+      <Collection>
+        <Collection>
+          <Collection>
+            <String>aaa</String>
+            <String>bbb</String>
+            <Int32>3</Int32>
+          </Collection>
+          <Collection>
+            <String>aaa</String>
+            <String>bbb</String>
+            <Int32>3</Int32>
+          </Collection>
+        </Collection>
+      </Collection>
+    </Collection>
+  </Value12>
+  <Value13>
+    <Int32>21</Int32>
+    <Int32>31</Int32>
+  </Value13>
+  <Value14>
+    <Int32>41</Int32>
+    <Int32>51</Int32>
+  </Value14>
+  <Value15>
+    <Int32>61</Int32>
+    <Int32>71</Int32>
+  </Value15>
+  <Value16>
+    <Int32>81</Int32>
+    <Int32>91</Int32>
+  </Value16>
+  <Value17>
+    <Int32>100</Int32>
+    <Int32>101</Int32>
+  </Value17>
+  <Value21>Ctor argument2</Value21>
+  <Value22>
+    <String>test1</String>
+    <String>test2</String>
+    <String>test3</String>
+  </Value22>
+  <Value23>
+    <String>test1</String>
+    <String>test2</String>
+  </Value23>
+  <Value24>0</Value24>
+  <Value28>28</Value28>
+  <Value29>29</Value29>
+  <Value32>
+    <Value1>20</Value1>
+  </Value32>
+  <Child Value18="This is my attr value" Value19="4" Value20="Ctor argument11" Value26="0" Value30="30" Value31="31">
+    <Value0>Value00</Value0>
+    <Value1>0</Value1>
+    <Value2>2</Value2>
+    <Value21>Ctor argument22</Value21>
+    <Value22 />
+    <Value24>0</Value24>
+    <Value28>28</Value28>
+    <Value29>29</Value29>
+    <Value32>
+      <Value1>11</Value1>
+    </Value32>
+    <Child Value19="0" Value20="Ctor argument111" Value26="0" Value30="30" Value31="31">
+      <Value0>Value000</Value0>
+      <Value1>0</Value1>
+      <Value2>2</Value2>
+      <Value10></Value10>
+      <Value21>Ctor argument222</Value21>
+      <Value22 />
+      <Value24>0</Value24>
+      <Value28>28</Value28>
+      <Value29>29</Value29>
+      <BaseValue>Ctor argument111</BaseValue>
+      <BaseValue1>base Value111</BaseValue1>
+      <BaseValue4>Ctor argument111</BaseValue4>
+    </Child>
+    <BaseValue>Ctor argument11</BaseValue>
+    <BaseValue1>base Value11</BaseValue1>
+    <BaseValue4>Ctor argument11</BaseValue4>
+  </Child>
+  <BaseValue>Ctor argument1</BaseValue>
+  <BaseValue1>base Value1</BaseValue1>
+  <BaseValue4>Ctor argument1</BaseValue4>
+</MyCustomEntity1>

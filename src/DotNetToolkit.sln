@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 17.0.32014.148
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetToolkit", "DotNetToolkit\DotNetToolkit.csproj", "{4F29B07F-4B0C-4C25-9A1E-5C14BC2C63A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetToolkit.Tests", "DotNetToolkit.Tests\DotNetToolkit.Tests.csproj", "{65691E76-8803-4C7D-AC5D-A0B58D54B2E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F29B07F-4B0C-4C25-9A1E-5C14BC2C63A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F29B07F-4B0C-4C25-9A1E-5C14BC2C63A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F29B07F-4B0C-4C25-9A1E-5C14BC2C63A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F29B07F-4B0C-4C25-9A1E-5C14BC2C63A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65691E76-8803-4C7D-AC5D-A0B58D54B2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65691E76-8803-4C7D-AC5D-A0B58D54B2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65691E76-8803-4C7D-AC5D-A0B58D54B2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65691E76-8803-4C7D-AC5D-A0B58D54B2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2B91275-E386-4E10-BFEE-67BB2A76ED58}
+	EndGlobalSection
+EndGlobal
